@@ -1,0 +1,66 @@
+<!-- begin #sidebar-right -->
+	<div id="sidebar-right" class="sidebar sidebar-right">
+		<!-- begin sidebar scrollbar -->
+		<div data-scrollbar="true" data-height="100%">
+			<!-- begin sidebar user -->
+			<ul class="nav m-t-10">			   
+				<li class="nav-widget">
+                    <div class="panel-group m-b-0" id="accordion">
+                        {% for online in online %}
+                            <span>{{online.username }}</span>
+                        {% endfor %} 
+
+                        <div class="panel panel-inverse">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                        <i class="fa fa-plus-circle pull-right text-success"></i> 
+                                        Accordion #1
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-inverse">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                        <i class="fa fa-plus-circle pull-right text-success"></i> 
+                                        Accordion #2
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-inverse">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                        <i class="fa fa-plus-circle pull-right text-success"></i> 
+                                        Accordion #3
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</li>
+			</ul>
+			<!-- end sidebar user -->
+		</div>
+		<!-- end sidebar scrollbar -->
+	</div>
+	<div class="sidebar-bg sidebar-right"></div>
+	<!-- end #sidebar-right -->

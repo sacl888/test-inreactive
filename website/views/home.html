@@ -1,0 +1,21 @@
+{% extends './templates/base.html' %}
+
+{% block content %}
+	<!-- started content -->
+		<ul class="list"></ul>
+		<input class="message" type="text" name="post" value="" data-id="{{user.id}}">		
+	<!-- end content -->
+
+	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
+	<script src="assets/plugins/sparkline/jquery.sparkline.js"></script>
+	<script src="assets/plugins/jquery-knob/js/jquery.knob.js"></script>
+	<script src="assets/js/page-with-two-sidebar.demo.min.js"></script>
+	  
+	<script src="/assets/js/apps.min.js"></script>
+	<!-- ================== END PAGE LEVEL JS ================== -->
+	<script>
+		$(document).ready(function() {
+			App.init();
+		});
+	</script>
+{% endblock %}

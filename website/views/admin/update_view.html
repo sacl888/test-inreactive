@@ -1,0 +1,17 @@
+{% extends './templates/base.html' %}
+
+{% block content %}
+	<h4>Welcome update users form</h4>
+	<br />
+	<a href="/admin/">Back list users</a>
+	<form action="/admin/update/{{ user.id }}" method="POST">	
+		<input type="text" name="username" value="{{ user.username }}"><br />
+		<input type="text" name="phone" value="{{ user.phone }}" placeholder="Your phone"><br />
+		<input type="text" name="firstname" value="{{ user.firstname }}" placeholder="Your firsname"><br />
+		<input type="text" name="lastname" value="{{ user.lastname }}" placeholder="Your lastname"><br />
+		<input type="text" name="email" value="{{ user.email }}" placeholder="Your Email"><br />
+		<input type="submit" value="Update user">
+	</form>
+{% endblock %}
+
+	

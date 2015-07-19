@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login User</title>
+</head>
+<body>
+	<h1>Login User</h1>
+	<form method="POST" action="/authenticate">
+		<input type="text" name="username" placeholder="Nombre">
+		<input type="password" name="password" placeholder="Password">
+		<input type="submit" value="Login">
+	</form>
+	<div class="message">{{message}}</div>
+	<br />
+	<a href="/">Back</a>
+</body>
+</html>

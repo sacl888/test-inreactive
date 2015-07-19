@@ -1,0 +1,25 @@
+html{
+	height: 100%;
+}
+
+body {
+	background: #f1f1f1;
+	height: 100%;
+  	padding: 50px;
+  	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a{
+  color: #00B7FF;
+}
+
+.title-welcome span{
+	text-transform: capitalize;
+}
+
+.login-header span{
+  	font-size: 26px;
+  	text-align: center;
+  	line-height: 25px;
+  	display: inline-block;
+}

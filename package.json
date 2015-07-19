@@ -1,0 +1,44 @@
+{
+  "name": "test-interactive",
+  "version": "1.0.0",
+  "description": "Ejemplos de prueba en Interactive",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^1.3.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.7.1",
+    "body-parser": "^1.8.4",
+    "cookie-parser": "^1.3.5",
+    "debug": "^2.0.0",
+    "express": "^4.9.8",
+    "express.io": "^1.1.13",
+    "express-session": "^1.11.3",
+    "jade": "^1.6.0",
+    "jsonwebtoken": "^5.0.4",
+    "method-override": "^2.3.4",
+    "morgan": "^1.3.2",
+    "mongoose": "^4.0.7",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.1.7",
+    "passport-local-token": "^1.0.1",
+    "socket.io": "^1.3.6",
+    "socket.io-client": "^1.3.6",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sacl888/git6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sacl888/git6/issues"
+  },
+  "homepage": "https://github.com/sacl888/git6"
+}
